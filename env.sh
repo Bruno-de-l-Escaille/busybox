@@ -1,3 +1,4 @@
+#!/bin/sh
 if [ "$#" -eq 0 ]; then
   /bin/env
 elif [ "$1" == "--null" ]; then
